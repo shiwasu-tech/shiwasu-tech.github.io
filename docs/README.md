@@ -37,12 +37,17 @@ Twitter [@shiwasu_tech](https://twitter.com/shiwasu_tech)<br>GitHub [@shiwasu-te
 > OpenCVで顔認識 -> 動画再生<br>[__動画__](https://twitter.com/shiwasu_tech/status/1646877675628396544)<br>*Raspberry-pi&WebCamで作成*
 
 ### 2. GPIOとDiscordの連携 (2023/03)
-> Raspberry-piのGPIOのHIGH/LOWでメッセージを送信した。<br>[__動画__](https://twitter.com/shiwasu_tech/status/1640382350239633408)<br>*DiscordBOTの勉強を兼ねて作った。<br>次はリードスイッチとNFCリーダを繋いで[部室](https://twitter.com/c0demattari)の入退室ロガーを作ろうとしている。*
+> Raspberry-piのGPIOのHIGH/LOWでメッセージを送信<br>[__動画__](https://twitter.com/shiwasu_tech/status/1640382350239633408)<br>*DiscordBOTの勉強を兼ねて作った。<br>次はリードスイッチとNFCリーダを繋いで[部室](https://twitter.com/c0demattari)の入退室ロガーを作ろうとしている。*
 
 
-### 3. LineのメッセージををDiscord内でやりとりするBOT 
-> チャンネル分け等機能性の面でDiscordのほうが使いやすい！ -> LineをDiscord内で使おう！<br>[__(作成中)__]()<br>*LineAPIとDiscord.pyを使ってやろうとしている。が、LineAPIはBOTが全世界に公開されてしまうので誰でも友達追加できてしまう。(フィルター分けはする予定。)<br>まずは個人チャット、次にグループに入れることを考慮して機能を足していきたい。*
+### NULL. LineのメッセージををDiscord内でやりとりするBOT (2023/03 ※断念)
+> ~~チャンネル分け等機能性の面でDiscordのほうが使いやすい！ -> LineをDiscord内で使おう！<br>[__(作成中)__]()<br>*LineAPIとDiscord.pyを使ってやろうとしている。が、LineAPIはBOTが全世界に公開されてしまうので誰でも友達追加できてしまう。(フィルター分けはする予定。)<br>まずは個人チャット、次にグループに入れることを考慮して機能を足していきたい。*~~<br><br>2023/06~ Line APIメッセージ送信機能が無料分が月200通となってしまったため、さすがに作っても無に帰すと思い断念。
 
+### 3. 顔の上下で動画の再生停止
+> 顔を上げている間は動画再生、下げている間は動画停止<br>[__動画:RasPi__]()<br>[__(作成中:chrome拡張)__]()<br>*第一回名工大ハッカソンにて製作。<br>動画のシークバーに停止時のログを残すなどの機能を付加できるという点でOpenCV.jsなど用いてchrome拡張機能として作成することになったが私がJSを書けず、chrome拡張を理解してすらいないがチームメンバーの[Koさん](https://twitter.com/KoCSience)と[みなりんさん](https://twitter.com/minarin0179)と製作中。非力な私は1での製作の経験を活かしRasPiで作成。無論、シークバーにログは残せない。*
+
+### 4. Body Interface
+> モーキャプを使わずにデバイスをジェスチャー操作する<br>[__(作成中)__]()<br>*3での製作から発想を得て、体全体でデバイスを操作できないかと思い始めたプロジェクト。<br>第一段階は「指パッチンでスライド送り」<br>- 指パッチンでスイッチ押下->Enterのキーコード送信<br>- 指パッチンのメカニズムを見るに難しそう<br>第二段階は「手のスイングでページ送り」<br>- IMUで加速度検知(閾値を超える)->方向キーコード送信<br>- IMUをうまく扱えるでしょうか...<br>第三段階は「
 
 ---
 ## **目を通した書籍たち**
