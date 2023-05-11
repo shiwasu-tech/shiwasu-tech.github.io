@@ -67,6 +67,8 @@ Twitter [@shiwasu_tech](https://twitter.com/shiwasu_tech)<br>GitHub [@shiwasu-te
 
 ### AI
 > **AIの教科書**
+> もうちょっと古いかもしれない
+> B.G.(Bfore-GPT) と A.G.
 
 ---
 
