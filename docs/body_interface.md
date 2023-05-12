@@ -35,12 +35,14 @@ BLE keyboard.h なるライブラリの作者が BLE mouse.h なるライブラ�
 そこで観察してみました。<br>![](images/imuwatching.JPG)
 
 航空学科じゃないので詳しくなかったのですが、色々調べながらやったところ
+
 $$
 Acc_n は n軸の重力加速度とする。\\
 roll = \tan^{-1}{\frac{Acc_x}{\sqrt{Acc_y^2+Acc_z^2}}}\\\\
 pitch = \tan^{-1}{\frac{Acc_y}{\sqrt{Acc_x^2+Acc_z^2}}}\\\\
 yaw = \tan^{-1}{\frac{\sqrt{Acc_x^2+Acc_y^2}}{Acc_z}}\\\\
 $$
+
 という数式によって得られるそうでこいつらの値と、軸速度gyro_nもとってくると...
 <br>
 
