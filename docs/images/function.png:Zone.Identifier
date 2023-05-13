@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://texclip.marutank.net/
+HostUrl=https://texclip.marutank.net/render.php/texclip20230514003114.png?s=%5Cbegin%7Balign*%7D%0D%0A%20%20%24%24%0D%0Aroll%20%26%3D%20%5Ctan%5E%7B-1%7D%7B%5Cfrac%7BAcc_x%7D%7B%5Csqrt%7BAcc_y%5E2%2BAcc_z%5E2%7D%7D%7D%5C%5C%5C%5C%0D%0Apitch%20%26%3D%20%5Ctan%5E%7B-1%7D%7B%5Cfrac%7BAcc_y%7D%7B%5Csqrt%7BAcc_x%5E2%2BAcc_z%5E2%7D%7D%7D%5C%5C%5C%5C%0D%0Ayaw%20%26%3D%20%5Ctan%5E%7B-1%7D%7B%5Cfrac%7B%5Csqrt%7BAcc_x%5E2%2BAcc_y%5E2%7D%7D%7BAcc_z%7D%7D%5C%5C%5C%5C%0D%0A%24%24%0D%0A%5Cend%7Balign*%7D&f=c&r=300&m=p&b=f&k=f
