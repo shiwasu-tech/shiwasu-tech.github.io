@@ -44,19 +44,20 @@ BLE keyboard.h なるライブラリの作者が BLE mouse.h なるライブラ�
 という数式によって得られるそうでこいつらの値と、軸速度gyro_nもとってくると...
 <br>
 
-||水平で固定|右ひねりで固定|
-|---:|---:|---:|
-|`gyroX`|||
-|`gyroY`|||
-|`gyroZ`|||
-|roll|||
-|pitch|||
-|yaw|||
+||水平で固定<br>`上下/左右`|右ひねりで固定<br>`上下/左右`|
+|---:|:---:|:---:|
+|roll|b|b|
+|pitch|b|b|
+|yaw|b|b|
+|gyroX|`a/b`|`a/b`|
+|gyroY|`a/b`|`a/b`|
+|gyroZ|`a/b`|`a/b`|
 
-<br><br><br>と分かった。これらを組み込んでやったのが......
+<br><br><br>と分かった。よってこれらの値を用いてマウスカーソルのピクセル移動を、以下の式で導出した。<br>※(Gx,Gz)=(gyroX,gyroZ)
 
+![](images/pixel_function.png)
 
-<br><br><br><br>こちら。
+それらを実装したものがこちら。
 ![](images/)
 
 > - 機能
@@ -70,5 +71,5 @@ BLE keyboard.h なるライブラリの作者が BLE mouse.h なるライブラ�
 
 <br>
 
-[動画](https://twitter.com/shiwasu_tech/status/1656628823746809857?s=20)
+[動画](https://twitter.com/shiwasu_tech/status/1656628823746809857?s=20)<br>※これを技育博で展示した。その時の紹介動画。
 
