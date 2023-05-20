@@ -1,3 +1,4 @@
+※動画の埋め込みがわからず、いちいちリンク飛ぶ必要があり、なかなか見ずらくなってしまっています。いつか改善します。
 # Body Interface
 
 2023年4月から取り組んでいるプロジェクトです。
@@ -14,7 +15,8 @@
 > ボタンを押している間に手を振ると ←/→ のキーコードを送信する。
 
 で、これにショートカットキーなどいろいろ追加してUIとかもいろいろやったのがこれ
-![](images/ver1.1.JPG)
+![](images/key_01.JPG)
+![](images/key_02.JPG)
 > - 機能<br>
 > 
 > 4つのモードを設定 (Presentation,Browsing,Media,Selectable)
@@ -27,7 +29,7 @@
 |ボタン2 + 振り|ウィンドウ遷移|ブラウザ進む/戻る|音量大/小|ブラウザ進む/戻る|
 |ボタン1 + ボタン2|再生/停止|F5キー|再生/停止|Selectable|
 
-[動画]()
+[動画](#動画)は末尾にあります。
 ## 2.手でマウス操作
 [ソースコード(Motion-Mouse)]()
 
@@ -46,19 +48,21 @@ BLE keyboard.h なるライブラリの作者が BLE mouse.h なるライブラ�
 
 ||水平で固定<br>`上下/左右`|右ひねりで固定<br>`上下/左右`|
 |---:|:---:|:---:|
-|roll|b|b|
-|pitch|b|b|
-|yaw|b|b|
-|gyroX|`a/b`|`a/b`|
-|gyroY|`a/b`|`a/b`|
-|gyroZ|`a/b`|`a/b`|
+|roll|0|~-60,60~|
+|pitch|0|0|
+|yaw|0|~-60,60~|
+|gyroX|`-200~200/-100~100`|`0/-200~200`|
+|gyroY|`-100~100/0`|`0/0`|
+|gyroZ|`-200~200/0`|`-200~200/0`|
 
-<br><br><br>と分かった。よってこれらの値を用いてマウスカーソルのピクセル移動を、以下の式で導出した。<br>※(Gx,Gz)=(gyroX,gyroZ)
+<br>と分かった。よってこれらの値を用いてマウスカーソルのピクセル移動を、以下の式で導出した。<br>
 
 ![](images/pixel_function.png)
+※(Gx,Gz)=(gyroX,gyroZ)
 
 それらを実装したものがこちら。
-![](images/)
+![](images/mouse_01.JPG)
+![](images/mouse_02.JPG)
 
 > - 機能
 > 
@@ -71,5 +75,11 @@ BLE keyboard.h なるライブラリの作者が BLE mouse.h なるライブラ�
 
 <br>
 
-[動画](https://twitter.com/shiwasu_tech/status/1656628823746809857?s=20)<br>※これを技育博で展示した。その時の紹介動画。
+## 動画
 
+[動画1](https://youtu.be/sZ5BhmNm95A)
+<br>雑に撮った動画です。(YouTube)<br>
+
+[動画2](https://twitter.com/shiwasu_tech/status/1656628823746809857?s=20)<br>※これを技育博で展示した。その時の紹介動画。(Twitter)
+
+![](images/key_and_mouse.JPG)
