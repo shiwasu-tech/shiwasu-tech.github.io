@@ -82,4 +82,7 @@ BLE keyboard.h なるライブラリの作者が BLE mouse.h なるライブラ�
 
 [動画2](https://twitter.com/shiwasu_tech/status/1656628823746809857?s=20)<br>※これを技育博で展示した。その時の紹介動画。(Twitter)
 
+### 技育博展示　資料と様子
+![](images/geek_haku_presen.JPG)
+![](images/geek_haku_powerpt.jpg)
 ![](images/key_and_mouse.JPG)
