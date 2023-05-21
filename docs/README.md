@@ -34,7 +34,7 @@ Twitter [@shiwasu_tech](https://twitter.com/shiwasu_tech)<br>GitHub [@shiwasu-te
 
 ---
 
-## **作品**(ポートフォリオ？？？)
+## 作品(ポートフォリオ？？？)
 作品とは言い過ぎで、ただただ最低限の動作をするモノ達。
 
 ### 1. 出迎えBOT (2023/01)
@@ -51,7 +51,7 @@ Twitter [@shiwasu_tech](https://twitter.com/shiwasu_tech)<br>GitHub [@shiwasu-te
 > 顔を上げている間は動画再生、下げている間は動画停止<br>[__動画未撮影:RasPi__]()<br>[__動画未撮影:chrome拡張__]()<br>*第一回名工大ハッカソンにて製作。<br>動画のシークバーに停止時のログを残すなどの機能を付加できるという点でOpenCV.jsなど用いてchrome拡張機能として作成することになったが私がJSを書けず、chrome拡張を理解してすらいないがチームメンバーの[Koさん](https://twitter.com/KoCSience)と[みなりんさん](https://twitter.com/minarin0179)と製作中。非力な私は1での製作の経験を活かしRasPiで作成。無論、シークバーにログは残せない。*
 
 ### 4. Body Interface
-> モーキャプを使わずにデバイスをジェスチャー操作する<br>[__動画__](https://youtu.be/sZ5BhmNm95A)<br>*3での製作から発想を得て、体全体でデバイスを操作できないかと思い始めたプロジェクト。*<br>詳しくは[__**こちらへ**__](body_interface.md)
+> モーキャプを使わずにデバイスをジェスチャー操作する<br>[__動画__](https://youtu.be/sZ5BhmNm95A)<br>*3での製作から発想を得て、体全体でデバイスを操作できないかと思い始めたプロジェクト。*<br>詳しくは[__こちらへ__](body_interface.md)
 
 ### 5. HMD Task manager
 > Trello APIを使って、タスクをHMDに表示し、タスクの**確認**と***済*属性付与**をできるようにする。<br>[(作成中)]()<br>HMDはマイコンとLCD or OLEDを繋ぎ、反射板を用いて距離を稼ぎつつ表示する。
