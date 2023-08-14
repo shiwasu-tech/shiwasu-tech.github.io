@@ -56,6 +56,7 @@ Twitter [@shiwasu_tech](https://twitter.com/shiwasu_tech)<br>GitHub [@shiwasu-te
 ### 5. HMD Task manager
 > Trello APIを使って、タスクをHMDに表示し、タスクの**確認**と***済*属性付与**をできるようにする。<br>[(作成中)]()<br>HMDはマイコンとLCD or OLEDを繋ぎ、反射板を用いて距離を稼ぎつつ表示する。
 ## 次作る予定のもの
+
 ### 99. 実現可能性-**高**
 > - ダイヤル式10キーパッド
 > - 腕マウスのデータをTensorFlow等にかける
@@ -65,6 +66,7 @@ Twitter [@shiwasu_tech](https://twitter.com/shiwasu_tech)<br>GitHub [@shiwasu-te
 > - 自発的に刺さりに行くコネクタ
 > - HoloLensアプリ開発(本体はもちろん持ってないよ！)
 ---
+
 ## **目を通した書籍たち**
 
 (整備中)
